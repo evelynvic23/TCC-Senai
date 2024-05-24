@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+
+.bodyColor{
+    background-color: #CCCCCC;
+    max-width: 1200px; /* Define a largura máxima */
+    margin: 0 auto; /* Centraliza o corpo horizontalmente */
+  
+}
+.titulo{
+    text-align: center;
+    margin-top: 3%;
+    font-family: "Space Grotesk", sans-serif;
+}
+.card{
+    margin: auto;
+    position: absolute; 
+    top: 0; 
+    bottom: 0;
+    left: 0; 
+    right: 0;
+    margin-top: 5%;
+    width: 40%;
+}
+.card-body{
+    display: flex;
+    justify-content: space-evenly;
+}
+.formulario{
+    margin-top: 5%;
+}
+footer {
+    margin-top: 20%;
+    position: absolute;
+    bottom: 0;
+    width: 1200px; /* Largura fixa para telas maiores */
+    height: 60px; /* Altura do rodapé */
+    background-color: #686868;
+    color: white;
+    text-align: center;
+    padding-top: 20px; /* Espaçamento interno do rodapé */
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 15px;
+}
+label{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+}
+
+
+
+#b{
+    background-color: #686868;
+    border: none;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+
+}
+#b1{
+    background-color: #686868;
+    border: none;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 16px;
+}
+#b2{
+    background-color: #686868;
+    border: none;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 16px;
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    /* Estilos para telas menores que 600px */
+    footer {
+        width: 100%; /* Largura ajustada para telas menores */
+        height: 80px; /* Ajuste a altura para telas menores */
+        padding-top: 10px; /* Ajuste o espaçamento interno para telas menores */
+    }
+   
+}
+
+
+
